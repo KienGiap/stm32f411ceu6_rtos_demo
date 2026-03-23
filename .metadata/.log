@@ -1,0 +1,528 @@
+!SESSION 2026-03-23 18:52:40.257 -----------------------------------------------
+eclipse.buildId=Version 2.1.1
+java.version=21.0.9
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=macosx, ARCH=aarch64, WS=cocoa, NL=en_US
+Framework arguments:  -keyring /Users/kiengiap/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch aarch64 -keyring /Users/kiengiap/.eclipse_keyring
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2026-03-23 18:54:04.515
+!MESSAGE Log4j2 initialized with config file /Users/kiengiap/Embedded/STM_WP/.metadata/.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2026-03-23 18:54:06.836
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2026-03-23 18:54:11.064
+!MESSAGE ProjectImporter: already registered
+
+!ENTRY org.eclipse.cdt.core 1 0 2026-03-23 19:01:03.476
+!MESSAGE Indexed 'FreeRTOS' (3 sources, 53 headers) in 0.416 sec: 1,954 declarations; 2,864 references; 0 unresolved inclusions; 2 syntax errors; 2 unresolved names (0.041%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2026-03-23 19:16:07.772
+!MESSAGE Indexed 'RTOS_empty' (3 sources, 53 headers) in 0.192 sec: 1,954 declarations; 2,864 references; 0 unresolved inclusions; 2 syntax errors; 2 unresolved names (0.041%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2026-03-23 19:49:06.855
+!MESSAGE Indexed 'FreeRTOS' (3 sources, 53 headers) in 0.131 sec: 1,954 declarations; 2,864 references; 0 unresolved inclusions; 2 syntax errors; 2 unresolved names (0.041%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2026-03-23 19:55:00.499
+!MESSAGE Indexed 'FreeRTOS_demo' (3 sources, 53 headers) in 0.096 sec: 1,954 declarations; 2,864 references; 0 unresolved inclusions; 2 syntax errors; 2 unresolved names (0.041%)
+
+!ENTRY com.st.stm32cube.ide.mcu.debug.launch 2 0 2026-03-23 20:06:30.455
+!MESSAGE Won't launch debug session since we failed to locate the binary.
+
+!ENTRY org.eclipse.core.jobs 4 2 2026-03-23 20:09:42.577
+!MESSAGE An internal error occurred during: "Launching 01-GPIO".
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "org.eclipse.cdt.core.model.ICProject.getProject()" because the return value of "org.eclipse.cdt.debug.core.CDebugUtils.getCProject(org.eclipse.debug.core.ILaunchConfiguration)" is null
+	at com.st.stm32cube.ide.mcu.toolchain.ui.ToolChainHelper.validateDebugLaunch(ToolChainHelper.java:38)
+	at com.st.stm32cube.ide.mcu.debug.launch.DSFDelegate.preLaunchCheck(DSFDelegate.java:97)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:769)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:716)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1054)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$1.run(DebugUIPlugin.java:1257)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.cdt.core 1 0 2026-03-23 20:12:55.191
+!MESSAGE Indexed 'FreeRTOS_demo' (9 sources, 92 headers) in 0.23 sec: 3,766 declarations; 6,247 references; 0 unresolved inclusions; 28 syntax errors; 341 unresolved names (3.3%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2026-03-23 20:15:54.840
+!MESSAGE Indexed 'FreeRTOS_demo' (9 sources, 92 headers) in 0.197 sec: 3,766 declarations; 6,247 references; 0 unresolved inclusions; 28 syntax errors; 341 unresolved names (3.3%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2026-03-23 20:15:55.880
+!MESSAGE Indexed 'FreeRTOS_demo' (9 sources, 92 headers) in 0.172 sec: 3,766 declarations; 6,247 references; 0 unresolved inclusions; 28 syntax errors; 341 unresolved names (3.3%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2026-03-23 20:15:59.441
+!MESSAGE Indexed 'FreeRTOS_demo' (9 sources, 92 headers) in 0.171 sec: 3,766 declarations; 6,247 references; 0 unresolved inclusions; 28 syntax errors; 341 unresolved names (3.3%)
+
+!ENTRY org.eclipse.core.jobs 4 2 2026-03-23 20:16:01.784
+!MESSAGE An internal error occurred during: "Launching 01-GPIO".
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "org.eclipse.cdt.core.model.ICProject.getProject()" because the return value of "org.eclipse.cdt.debug.core.CDebugUtils.getCProject(org.eclipse.debug.core.ILaunchConfiguration)" is null
+	at com.st.stm32cube.ide.mcu.toolchain.ui.ToolChainHelper.validateDebugLaunch(ToolChainHelper.java:38)
+	at com.st.stm32cube.ide.mcu.debug.launch.DSFDelegate.preLaunchCheck(DSFDelegate.java:97)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:769)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:716)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1054)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$1.run(DebugUIPlugin.java:1257)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.cdt.core 1 0 2026-03-23 20:16:48.537
+!MESSAGE Indexed 'FreeRTOS_demo' (9 sources, 92 headers) in 0.161 sec: 3,766 declarations; 6,247 references; 0 unresolved inclusions; 28 syntax errors; 341 unresolved names (3.3%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2026-03-23 20:16:51.009
+!MESSAGE Indexed 'FreeRTOS_demo' (9 sources, 92 headers) in 0.186 sec: 3,766 declarations; 6,247 references; 0 unresolved inclusions; 28 syntax errors; 341 unresolved names (3.3%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2026-03-23 20:22:21.947
+!MESSAGE Indexed 'FreeRTOS_demo' (19 sources, 115 headers) in 0.767 sec: 10,244 declarations; 36,356 references; 1 unresolved inclusions; 92 syntax errors; 240 unresolved names (0.51%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2026-03-23 21:03:05.773
+!MESSAGE Indexed 'FreeRTOS_demo' (35 sources, 145 headers) in 0.985 sec: 13,513 declarations; 58,106 references; 1 unresolved inclusions; 92 syntax errors; 240 unresolved names (0.33%)
+
+!ENTRY org.eclipse.core.jobs 4 2 2026-03-23 21:29:54.678
+!MESSAGE An internal error occurred during: "Launching 01-GPIO".
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "org.eclipse.cdt.core.model.ICProject.getProject()" because the return value of "org.eclipse.cdt.debug.core.CDebugUtils.getCProject(org.eclipse.debug.core.ILaunchConfiguration)" is null
+	at com.st.stm32cube.ide.mcu.toolchain.ui.ToolChainHelper.validateDebugLaunch(ToolChainHelper.java:38)
+	at com.st.stm32cube.ide.mcu.debug.launch.DSFDelegate.preLaunchCheck(DSFDelegate.java:97)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:769)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:716)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1054)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$1.run(DebugUIPlugin.java:1257)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.core.resources 4 2 2026-03-23 21:30:28.725
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.core.resources".
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException(/FreeRTOS_demo/Debug/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2)[368]: java.lang.Exception: Resource '/FreeRTOS_demo/Debug/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2' does not exist.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:364)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:238)
+	at org.eclipse.core.internal.resources.Container.members(Container.java:244)
+	at org.eclipse.core.internal.resources.Container.members(Container.java:231)
+	at com.st.stm32cube.ide.mcu.toolchain.armnone.oss.makefile.MakefileGenerator.generateDependencies(MakefileGenerator.java:630)
+	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.performPostbuildGeneration(CommonBuilder.java:878)
+	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.build(CommonBuilder.java:790)
+	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.build(CommonBuilder.java:530)
+	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.build(CommonBuilder.java:471)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:1077)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:296)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:468)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:670)
+	at org.eclipse.core.internal.resources.Project$1.run(Project.java:604)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2451)
+	at org.eclipse.core.internal.resources.Project.internalBuild(Project.java:642)
+	at org.eclipse.core.internal.resources.Project.build(Project.java:162)
+	at org.eclipse.cdt.launch.AbstractCLaunchDelegate2$1.run(AbstractCLaunchDelegate2.java:376)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2451)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2471)
+	at org.eclipse.cdt.launch.AbstractCLaunchDelegate2.buildProject(AbstractCLaunchDelegate2.java:391)
+	at org.eclipse.cdt.launch.AbstractCLaunchDelegate2.buildForLaunch(AbstractCLaunchDelegate2.java:306)
+	at com.st.stm32cube.ide.mcu.debug.launch.DSFDelegate.buildForLaunch(DSFDelegate.java:232)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:780)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:716)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1054)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$1.run(DebugUIPlugin.java:1257)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2026-03-23 21:30:28.727
+!MESSAGE Resource '/FreeRTOS_demo/Debug/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2' does not exist.
+!STACK 0
+java.lang.Exception: Resource '/FreeRTOS_demo/Debug/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2' does not exist.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:364)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:238)
+	at org.eclipse.core.internal.resources.Container.members(Container.java:244)
+	at org.eclipse.core.internal.resources.Container.members(Container.java:231)
+	at com.st.stm32cube.ide.mcu.toolchain.armnone.oss.makefile.MakefileGenerator.generateDependencies(MakefileGenerator.java:630)
+	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.performPostbuildGeneration(CommonBuilder.java:878)
+	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.build(CommonBuilder.java:790)
+	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.build(CommonBuilder.java:530)
+	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.build(CommonBuilder.java:471)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:1077)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:296)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:468)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:670)
+	at org.eclipse.core.internal.resources.Project$1.run(Project.java:604)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2451)
+	at org.eclipse.core.internal.resources.Project.internalBuild(Project.java:642)
+	at org.eclipse.core.internal.resources.Project.build(Project.java:162)
+	at org.eclipse.cdt.launch.AbstractCLaunchDelegate2$1.run(AbstractCLaunchDelegate2.java:376)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2451)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2471)
+	at org.eclipse.cdt.launch.AbstractCLaunchDelegate2.buildProject(AbstractCLaunchDelegate2.java:391)
+	at org.eclipse.cdt.launch.AbstractCLaunchDelegate2.buildForLaunch(AbstractCLaunchDelegate2.java:306)
+	at com.st.stm32cube.ide.mcu.debug.launch.DSFDelegate.buildForLaunch(DSFDelegate.java:232)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:780)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:716)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1054)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$1.run(DebugUIPlugin.java:1257)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2026-03-23 21:30:28.727
+!MESSAGE Resource '/FreeRTOS_demo/Debug/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2' does not exist.
+!STACK 0
+java.lang.Exception: Resource '/FreeRTOS_demo/Debug/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2' does not exist.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:364)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:238)
+	at org.eclipse.core.internal.resources.Container.members(Container.java:244)
+	at org.eclipse.core.internal.resources.Container.members(Container.java:231)
+	at com.st.stm32cube.ide.mcu.toolchain.armnone.oss.makefile.MakefileGenerator.generateDependencies(MakefileGenerator.java:630)
+	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.performPostbuildGeneration(CommonBuilder.java:878)
+	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.build(CommonBuilder.java:790)
+	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.build(CommonBuilder.java:530)
+	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.build(CommonBuilder.java:471)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:1077)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:296)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:468)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:670)
+	at org.eclipse.core.internal.resources.Project$1.run(Project.java:604)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2451)
+	at org.eclipse.core.internal.resources.Project.internalBuild(Project.java:642)
+	at org.eclipse.core.internal.resources.Project.build(Project.java:162)
+	at org.eclipse.cdt.launch.AbstractCLaunchDelegate2$1.run(AbstractCLaunchDelegate2.java:376)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2451)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2471)
+	at org.eclipse.cdt.launch.AbstractCLaunchDelegate2.buildProject(AbstractCLaunchDelegate2.java:391)
+	at org.eclipse.cdt.launch.AbstractCLaunchDelegate2.buildForLaunch(AbstractCLaunchDelegate2.java:306)
+	at com.st.stm32cube.ide.mcu.debug.launch.DSFDelegate.buildForLaunch(DSFDelegate.java:232)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:780)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:716)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1054)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$1.run(DebugUIPlugin.java:1257)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 104 2026-03-23 21:30:31.222
+!MESSAGE Program file does not exist
+!STACK 0
+java.io.FileNotFoundException: /Users/kiengiap/Embedded/STM_WP/FreeRTOS_demo/Debug/FreeRTOS_demo.elf not found
+	at org.eclipse.cdt.dsf.gdb.launching.LaunchUtils.verifyProgramPath(LaunchUtils.java:130)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.checkBinaryDetails(GdbLaunchDelegate.java:330)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.launchDebugSession(GdbLaunchDelegate.java:152)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.launchDebugger(GdbLaunchDelegate.java:109)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.launch(GdbLaunchDelegate.java:97)
+	at com.st.stm32cube.ide.mcu.debug.launch.DSFDelegate.launch(DSFDelegate.java:335)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:805)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:716)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1054)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$1.run(DebugUIPlugin.java:1257)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 104 2026-03-23 21:30:31.222
+!MESSAGE /Users/kiengiap/Embedded/STM_WP/FreeRTOS_demo/Debug/FreeRTOS_demo.elf not found
+!STACK 0
+java.io.FileNotFoundException: /Users/kiengiap/Embedded/STM_WP/FreeRTOS_demo/Debug/FreeRTOS_demo.elf not found
+	at org.eclipse.cdt.dsf.gdb.launching.LaunchUtils.verifyProgramPath(LaunchUtils.java:130)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.checkBinaryDetails(GdbLaunchDelegate.java:330)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.launchDebugSession(GdbLaunchDelegate.java:152)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.launchDebugger(GdbLaunchDelegate.java:109)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.launch(GdbLaunchDelegate.java:97)
+	at com.st.stm32cube.ide.mcu.debug.launch.DSFDelegate.launch(DSFDelegate.java:335)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:805)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:716)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1054)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$1.run(DebugUIPlugin.java:1257)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY com.st.stm32cube.ide.mcu.toolchain 4 4 2026-03-23 21:31:19.595
+!MESSAGE ST-LINK GDB server failed to start (exit code = 6)
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 5012 2026-03-23 21:31:19.621
+!MESSAGE Error in final launch sequence:
+
+Failed to start GDB server
+!STACK 1
+org.eclipse.core.runtime.CoreException: Failed to start GDB server
+	at org.eclipse.cdt.dsf.concurrent.Query.get(Query.java:112)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.launchDebugSession(GdbLaunchDelegate.java:252)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.launchDebugger(GdbLaunchDelegate.java:109)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.launch(GdbLaunchDelegate.java:97)
+	at com.st.stm32cube.ide.mcu.debug.launch.DSFDelegate.launch(DSFDelegate.java:335)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:805)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:716)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1054)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$1.run(DebugUIPlugin.java:1257)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: org.eclipse.core.runtime.CoreException: Error in initializing ST-LINK device.
+Reason: (6) ST-LINK firmware upgrade required.
+Please upgrade the ST-LINK firmware using the upgrade tool. Reconnect ST-LINK and click OK
+	at com.st.stm32cube.ide.mcu.debug.stlink.StLinkDebugHardware.verifyServer(StLinkDebugHardware.java:2149)
+	at com.st.stm32cube.ide.mcu.debug.launch.export.HardwareDebugUtil.startServer(HardwareDebugUtil.java:369)
+	at com.st.stm32cube.ide.mcu.debug.launch.export.HardwareDebugUtil.startServer(HardwareDebugUtil.java:113)
+	at com.st.stm32cube.ide.mcu.debug.launch.LaunchSequenceUtil.stepStartGDBServer(LaunchSequenceUtil.java:206)
+	at com.st.stm32cube.ide.mcu.debug.launch.GDBExtendedJtagDSFFinalLaunchSequence_7_12.stepStartGDBServer(GDBExtendedJtagDSFFinalLaunchSequence_7_12.java:104)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.cdt.dsf.concurrent.ReflectionSequence$ReflectionStep.execute(ReflectionSequence.java:160)
+	at org.eclipse.cdt.dsf.concurrent.Sequence.executeStep(Sequence.java:475)
+	at org.eclipse.cdt.dsf.concurrent.Sequence$2.handleSuccess(Sequence.java:437)
+	at org.eclipse.cdt.dsf.concurrent.RequestMonitor.handleCompleted(RequestMonitor.java:391)
+	at org.eclipse.cdt.dsf.concurrent.RequestMonitor$2.run(RequestMonitor.java:317)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+!SUBENTRY 1 com.st.stm32cube.ide.mcu.debug.launch 4 0 2026-03-23 21:31:19.622
+!MESSAGE Failed to start GDB server
+!STACK 1
+org.eclipse.core.runtime.CoreException: Error in initializing ST-LINK device.
+Reason: (6) ST-LINK firmware upgrade required.
+Please upgrade the ST-LINK firmware using the upgrade tool. Reconnect ST-LINK and click OK
+	at com.st.stm32cube.ide.mcu.debug.stlink.StLinkDebugHardware.verifyServer(StLinkDebugHardware.java:2149)
+	at com.st.stm32cube.ide.mcu.debug.launch.export.HardwareDebugUtil.startServer(HardwareDebugUtil.java:369)
+	at com.st.stm32cube.ide.mcu.debug.launch.export.HardwareDebugUtil.startServer(HardwareDebugUtil.java:113)
+	at com.st.stm32cube.ide.mcu.debug.launch.LaunchSequenceUtil.stepStartGDBServer(LaunchSequenceUtil.java:206)
+	at com.st.stm32cube.ide.mcu.debug.launch.GDBExtendedJtagDSFFinalLaunchSequence_7_12.stepStartGDBServer(GDBExtendedJtagDSFFinalLaunchSequence_7_12.java:104)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.cdt.dsf.concurrent.ReflectionSequence$ReflectionStep.execute(ReflectionSequence.java:160)
+	at org.eclipse.cdt.dsf.concurrent.Sequence.executeStep(Sequence.java:475)
+	at org.eclipse.cdt.dsf.concurrent.Sequence$2.handleSuccess(Sequence.java:437)
+	at org.eclipse.cdt.dsf.concurrent.RequestMonitor.handleCompleted(RequestMonitor.java:391)
+	at org.eclipse.cdt.dsf.concurrent.RequestMonitor$2.run(RequestMonitor.java:317)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+!SUBENTRY 2 com.st.stm32cube.ide.mcu.toolchain 4 0 2026-03-23 21:31:19.622
+!MESSAGE Error in initializing ST-LINK device.
+Reason: (6) ST-LINK firmware upgrade required.
+Please upgrade the ST-LINK firmware using the upgrade tool. Reconnect ST-LINK and click OK
+
+!ENTRY com.st.stm32cube.ide.mcu.debug 2 2 2026-03-23 21:36:11.414
+!MESSAGE ST-LINK firmware verification, Check required failed
+
+!ENTRY com.st.stm32cube.ide.mcu.toolchain 4 4 2026-03-23 21:36:14.374
+!MESSAGE ST-LINK GDB server failed to start (exit code = 1)
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 5012 2026-03-23 21:36:14.386
+!MESSAGE Error in final launch sequence:
+
+Failed to start GDB server
+!STACK 1
+org.eclipse.core.runtime.CoreException: Failed to start GDB server
+	at org.eclipse.cdt.dsf.concurrent.Query.get(Query.java:112)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.launchDebugSession(GdbLaunchDelegate.java:252)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.launchDebugger(GdbLaunchDelegate.java:109)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.launch(GdbLaunchDelegate.java:97)
+	at com.st.stm32cube.ide.mcu.debug.launch.DSFDelegate.launch(DSFDelegate.java:337)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:805)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:716)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1054)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$1.run(DebugUIPlugin.java:1257)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: org.eclipse.core.runtime.CoreException: Error in initializing ST-LINK device.
+Reason: (1) Failed to connect to device. Please check power and cabling to target.
+	at com.st.stm32cube.ide.mcu.debug.stlink.StLinkDebugHardware.verifyServer(StLinkDebugHardware.java:2149)
+	at com.st.stm32cube.ide.mcu.debug.launch.export.HardwareDebugUtil.startServer(HardwareDebugUtil.java:369)
+	at com.st.stm32cube.ide.mcu.debug.launch.export.HardwareDebugUtil.startServer(HardwareDebugUtil.java:113)
+	at com.st.stm32cube.ide.mcu.debug.launch.LaunchSequenceUtil.stepStartGDBServer(LaunchSequenceUtil.java:206)
+	at com.st.stm32cube.ide.mcu.debug.launch.GDBExtendedJtagDSFFinalLaunchSequence_7_12.stepStartGDBServer(GDBExtendedJtagDSFFinalLaunchSequence_7_12.java:104)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.cdt.dsf.concurrent.ReflectionSequence$ReflectionStep.execute(ReflectionSequence.java:160)
+	at org.eclipse.cdt.dsf.concurrent.Sequence.executeStep(Sequence.java:475)
+	at org.eclipse.cdt.dsf.concurrent.Sequence$2.handleSuccess(Sequence.java:437)
+	at org.eclipse.cdt.dsf.concurrent.RequestMonitor.handleCompleted(RequestMonitor.java:391)
+	at org.eclipse.cdt.dsf.concurrent.RequestMonitor$2.run(RequestMonitor.java:317)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+!SUBENTRY 1 com.st.stm32cube.ide.mcu.debug.launch 4 0 2026-03-23 21:36:14.386
+!MESSAGE Failed to start GDB server
+!STACK 1
+org.eclipse.core.runtime.CoreException: Error in initializing ST-LINK device.
+Reason: (1) Failed to connect to device. Please check power and cabling to target.
+	at com.st.stm32cube.ide.mcu.debug.stlink.StLinkDebugHardware.verifyServer(StLinkDebugHardware.java:2149)
+	at com.st.stm32cube.ide.mcu.debug.launch.export.HardwareDebugUtil.startServer(HardwareDebugUtil.java:369)
+	at com.st.stm32cube.ide.mcu.debug.launch.export.HardwareDebugUtil.startServer(HardwareDebugUtil.java:113)
+	at com.st.stm32cube.ide.mcu.debug.launch.LaunchSequenceUtil.stepStartGDBServer(LaunchSequenceUtil.java:206)
+	at com.st.stm32cube.ide.mcu.debug.launch.GDBExtendedJtagDSFFinalLaunchSequence_7_12.stepStartGDBServer(GDBExtendedJtagDSFFinalLaunchSequence_7_12.java:104)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.cdt.dsf.concurrent.ReflectionSequence$ReflectionStep.execute(ReflectionSequence.java:160)
+	at org.eclipse.cdt.dsf.concurrent.Sequence.executeStep(Sequence.java:475)
+	at org.eclipse.cdt.dsf.concurrent.Sequence$2.handleSuccess(Sequence.java:437)
+	at org.eclipse.cdt.dsf.concurrent.RequestMonitor.handleCompleted(RequestMonitor.java:391)
+	at org.eclipse.cdt.dsf.concurrent.RequestMonitor$2.run(RequestMonitor.java:317)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+!SUBENTRY 2 com.st.stm32cube.ide.mcu.toolchain 4 0 2026-03-23 21:36:14.386
+!MESSAGE Error in initializing ST-LINK device.
+Reason: (1) Failed to connect to device. Please check power and cabling to target.
+
+!ENTRY com.st.stm32cube.ide.mcu.toolchain 4 4 2026-03-23 21:36:22.810
+!MESSAGE ST-LINK GDB server failed to start (exit code = 6)
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 5012 2026-03-23 21:36:22.819
+!MESSAGE Error in final launch sequence:
+
+Failed to start GDB server
+!STACK 1
+org.eclipse.core.runtime.CoreException: Failed to start GDB server
+	at org.eclipse.cdt.dsf.concurrent.Query.get(Query.java:112)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.launchDebugSession(GdbLaunchDelegate.java:252)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.launchDebugger(GdbLaunchDelegate.java:109)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.launch(GdbLaunchDelegate.java:97)
+	at com.st.stm32cube.ide.mcu.debug.launch.DSFDelegate.launch(DSFDelegate.java:335)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:805)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:716)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1054)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$1.run(DebugUIPlugin.java:1257)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: org.eclipse.core.runtime.CoreException: Error in initializing ST-LINK device.
+Reason: (6) ST-LINK firmware upgrade required.
+Please upgrade the ST-LINK firmware using the upgrade tool. Reconnect ST-LINK and click OK
+	at com.st.stm32cube.ide.mcu.debug.stlink.StLinkDebugHardware.verifyServer(StLinkDebugHardware.java:2149)
+	at com.st.stm32cube.ide.mcu.debug.launch.export.HardwareDebugUtil.startServer(HardwareDebugUtil.java:369)
+	at com.st.stm32cube.ide.mcu.debug.launch.export.HardwareDebugUtil.startServer(HardwareDebugUtil.java:113)
+	at com.st.stm32cube.ide.mcu.debug.launch.LaunchSequenceUtil.stepStartGDBServer(LaunchSequenceUtil.java:206)
+	at com.st.stm32cube.ide.mcu.debug.launch.GDBExtendedJtagDSFFinalLaunchSequence_7_12.stepStartGDBServer(GDBExtendedJtagDSFFinalLaunchSequence_7_12.java:104)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.cdt.dsf.concurrent.ReflectionSequence$ReflectionStep.execute(ReflectionSequence.java:160)
+	at org.eclipse.cdt.dsf.concurrent.Sequence.executeStep(Sequence.java:475)
+	at org.eclipse.cdt.dsf.concurrent.Sequence$2.handleSuccess(Sequence.java:437)
+	at org.eclipse.cdt.dsf.concurrent.RequestMonitor.handleCompleted(RequestMonitor.java:391)
+	at org.eclipse.cdt.dsf.concurrent.RequestMonitor$2.run(RequestMonitor.java:317)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+!SUBENTRY 1 com.st.stm32cube.ide.mcu.debug.launch 4 0 2026-03-23 21:36:22.819
+!MESSAGE Failed to start GDB server
+!STACK 1
+org.eclipse.core.runtime.CoreException: Error in initializing ST-LINK device.
+Reason: (6) ST-LINK firmware upgrade required.
+Please upgrade the ST-LINK firmware using the upgrade tool. Reconnect ST-LINK and click OK
+	at com.st.stm32cube.ide.mcu.debug.stlink.StLinkDebugHardware.verifyServer(StLinkDebugHardware.java:2149)
+	at com.st.stm32cube.ide.mcu.debug.launch.export.HardwareDebugUtil.startServer(HardwareDebugUtil.java:369)
+	at com.st.stm32cube.ide.mcu.debug.launch.export.HardwareDebugUtil.startServer(HardwareDebugUtil.java:113)
+	at com.st.stm32cube.ide.mcu.debug.launch.LaunchSequenceUtil.stepStartGDBServer(LaunchSequenceUtil.java:206)
+	at com.st.stm32cube.ide.mcu.debug.launch.GDBExtendedJtagDSFFinalLaunchSequence_7_12.stepStartGDBServer(GDBExtendedJtagDSFFinalLaunchSequence_7_12.java:104)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.cdt.dsf.concurrent.ReflectionSequence$ReflectionStep.execute(ReflectionSequence.java:160)
+	at org.eclipse.cdt.dsf.concurrent.Sequence.executeStep(Sequence.java:475)
+	at org.eclipse.cdt.dsf.concurrent.Sequence$2.handleSuccess(Sequence.java:437)
+	at org.eclipse.cdt.dsf.concurrent.RequestMonitor.handleCompleted(RequestMonitor.java:391)
+	at org.eclipse.cdt.dsf.concurrent.RequestMonitor$2.run(RequestMonitor.java:317)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+!SUBENTRY 2 com.st.stm32cube.ide.mcu.toolchain 4 0 2026-03-23 21:36:22.820
+!MESSAGE Error in initializing ST-LINK device.
+Reason: (6) ST-LINK firmware upgrade required.
+Please upgrade the ST-LINK firmware using the upgrade tool. Reconnect ST-LINK and click OK
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 104 2026-03-23 22:55:11.863
+!MESSAGE Program file does not exist
+!STACK 0
+java.io.FileNotFoundException: /Users/kiengiap/Embedded/STM_WP/FreeRTOS_demo/Debug/FreeRTOS_demo.elf not found
+	at org.eclipse.cdt.dsf.gdb.launching.LaunchUtils.verifyProgramPath(LaunchUtils.java:130)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.checkBinaryDetails(GdbLaunchDelegate.java:330)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.launchDebugSession(GdbLaunchDelegate.java:152)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.launchDebugger(GdbLaunchDelegate.java:109)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.launch(GdbLaunchDelegate.java:97)
+	at com.st.stm32cube.ide.mcu.debug.launch.DSFDelegate.launch(DSFDelegate.java:335)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:805)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:716)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1054)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$1.run(DebugUIPlugin.java:1257)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 104 2026-03-23 22:55:11.863
+!MESSAGE /Users/kiengiap/Embedded/STM_WP/FreeRTOS_demo/Debug/FreeRTOS_demo.elf not found
+!STACK 0
+java.io.FileNotFoundException: /Users/kiengiap/Embedded/STM_WP/FreeRTOS_demo/Debug/FreeRTOS_demo.elf not found
+	at org.eclipse.cdt.dsf.gdb.launching.LaunchUtils.verifyProgramPath(LaunchUtils.java:130)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.checkBinaryDetails(GdbLaunchDelegate.java:330)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.launchDebugSession(GdbLaunchDelegate.java:152)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.launchDebugger(GdbLaunchDelegate.java:109)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.launch(GdbLaunchDelegate.java:97)
+	at com.st.stm32cube.ide.mcu.debug.launch.DSFDelegate.launch(DSFDelegate.java:335)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:805)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:716)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1054)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$1.run(DebugUIPlugin.java:1257)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 104 2026-03-23 23:00:09.122
+!MESSAGE Program file does not exist
+!STACK 0
+java.io.FileNotFoundException: /Users/kiengiap/Embedded/STM_WP/FreeRTOS_demo/Debug/FreeRTOS_demo.elf not found
+	at org.eclipse.cdt.dsf.gdb.launching.LaunchUtils.verifyProgramPath(LaunchUtils.java:130)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.checkBinaryDetails(GdbLaunchDelegate.java:330)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.launchDebugSession(GdbLaunchDelegate.java:152)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.launchDebugger(GdbLaunchDelegate.java:109)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.launch(GdbLaunchDelegate.java:97)
+	at com.st.stm32cube.ide.mcu.debug.launch.DSFDelegate.launch(DSFDelegate.java:335)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:805)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:716)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1054)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$1.run(DebugUIPlugin.java:1257)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 104 2026-03-23 23:00:09.122
+!MESSAGE /Users/kiengiap/Embedded/STM_WP/FreeRTOS_demo/Debug/FreeRTOS_demo.elf not found
+!STACK 0
+java.io.FileNotFoundException: /Users/kiengiap/Embedded/STM_WP/FreeRTOS_demo/Debug/FreeRTOS_demo.elf not found
+	at org.eclipse.cdt.dsf.gdb.launching.LaunchUtils.verifyProgramPath(LaunchUtils.java:130)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.checkBinaryDetails(GdbLaunchDelegate.java:330)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.launchDebugSession(GdbLaunchDelegate.java:152)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.launchDebugger(GdbLaunchDelegate.java:109)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.launch(GdbLaunchDelegate.java:97)
+	at com.st.stm32cube.ide.mcu.debug.launch.DSFDelegate.launch(DSFDelegate.java:335)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:805)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:716)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1054)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$1.run(DebugUIPlugin.java:1257)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 104 2026-03-23 23:00:30.667
+!MESSAGE Program file does not exist
+!STACK 0
+java.io.FileNotFoundException: /Users/kiengiap/Embedded/STM_WP/FreeRTOS_demo/Debug/FreeRTOS_demo.elf not found
+	at org.eclipse.cdt.dsf.gdb.launching.LaunchUtils.verifyProgramPath(LaunchUtils.java:130)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.checkBinaryDetails(GdbLaunchDelegate.java:330)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.launchDebugSession(GdbLaunchDelegate.java:152)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.launchDebugger(GdbLaunchDelegate.java:109)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.launch(GdbLaunchDelegate.java:97)
+	at com.st.stm32cube.ide.mcu.debug.launch.DSFDelegate.launch(DSFDelegate.java:335)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:805)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:716)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1054)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$1.run(DebugUIPlugin.java:1257)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 104 2026-03-23 23:00:30.667
+!MESSAGE /Users/kiengiap/Embedded/STM_WP/FreeRTOS_demo/Debug/FreeRTOS_demo.elf not found
+!STACK 0
+java.io.FileNotFoundException: /Users/kiengiap/Embedded/STM_WP/FreeRTOS_demo/Debug/FreeRTOS_demo.elf not found
+	at org.eclipse.cdt.dsf.gdb.launching.LaunchUtils.verifyProgramPath(LaunchUtils.java:130)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.checkBinaryDetails(GdbLaunchDelegate.java:330)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.launchDebugSession(GdbLaunchDelegate.java:152)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.launchDebugger(GdbLaunchDelegate.java:109)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.launch(GdbLaunchDelegate.java:97)
+	at com.st.stm32cube.ide.mcu.debug.launch.DSFDelegate.launch(DSFDelegate.java:335)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:805)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:716)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1054)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$1.run(DebugUIPlugin.java:1257)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)

@@ -1,0 +1,17 @@
+23:01:14 **** Incremental Build of configuration Debug for project FreeRTOS_demo ****
+make -j9 all 
+arm-none-eabi-gcc "../Src/syscalls.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/syscalls.d" -MT"Src/syscalls.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Src/syscalls.o"
+arm-none-eabi-gcc -o "FreeRTOS_demo.elf" @"objects.list"   -mcpu=cortex-m4 -T"/Users/kiengiap/Embedded/STM_WP/FreeRTOS_demo/STM32F411CEUX_FLASH.ld" --specs=nosys.specs -Wl,-Map="FreeRTOS_demo.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: FreeRTOS_demo.elf
+ 
+arm-none-eabi-size  FreeRTOS_demo.elf 
+arm-none-eabi-objdump -h -S FreeRTOS_demo.elf  > "FreeRTOS_demo.list"
+   text	   data	    bss	    dec	    hex	filename
+  23248	    108	  18292	  41648	   a2b0	FreeRTOS_demo.elf
+Finished building: default.size.stdout
+ 
+Finished building: FreeRTOS_demo.list
+ 
+
+23:01:14 Build Finished. 0 errors, 0 warnings. (took 369ms)
+
