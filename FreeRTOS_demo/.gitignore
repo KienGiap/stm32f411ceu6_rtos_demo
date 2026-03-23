@@ -1,4 +1,12 @@
+.vscode/
 .vscode
 Debug/
-Debug/Src/main.su
 Debug
+../.metadata/
+.metadata
+../.settings/
+.settings
+../.project
+.project
+../.cproject
+.cproject
